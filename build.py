@@ -92,3 +92,6 @@ atlantic_storms['name'] = atlantic_storms['name'].map(lambda n: n.strip())
 # Reindex.
 atlantic_storms.index = range(len(atlantic_storms.index))
 atlantic_storms.index.name = "index"
+
+# Save to local disk
+atlantic_storms.to_csv("atlantic-storms.csv", index=False)
