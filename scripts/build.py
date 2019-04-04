@@ -94,4 +94,4 @@ atlantic_storms.index = range(len(atlantic_storms.index))
 atlantic_storms.index.name = "index"
 
 # Save to local disk
-atlantic_storms.to_csv("data/atlantic-storms.csv", index=False)
+atlantic_storms.to_csv("../data/atlantic-storms.csv", index=False)
